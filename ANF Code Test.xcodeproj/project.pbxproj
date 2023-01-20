@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3555A7FF297B326400963D38 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3555A7FE297B326400963D38 /* ProductListModel.swift */; };
-		3555A806297B339900963D38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3555A805297B339900963D38 /* Extensions.swift */; };
-		3E4AB93A2676D86100C79456 /* exploreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E4AB9392676D86100C79456 /* exploreData.json */; };
+		3555A831297B389300963D38 /* exploreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3555A830297B389300963D38 /* exploreData.json */; };
 		3E727ED326727088006C11AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727ED226727088006C11AC /* AppDelegate.swift */; };
 		3E727ED526727088006C11AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727ED426727088006C11AC /* SceneDelegate.swift */; };
 		3E727EDA26727088006C11AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E727ED826727088006C11AC /* Main.storyboard */; };
@@ -36,8 +35,7 @@
 		0E3E990CFD41D93B6B6CE6F7 /* Pods-ANF Code Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANF Code Test.release.xcconfig"; path = "Target Support Files/Pods-ANF Code Test/Pods-ANF Code Test.release.xcconfig"; sourceTree = "<group>"; };
 		1EFEC97B2783689663D95F06 /* Pods-ANF Code TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANF Code TestTests.debug.xcconfig"; path = "Target Support Files/Pods-ANF Code TestTests/Pods-ANF Code TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3555A7FE297B326400963D38 /* ProductListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
-		3555A805297B339900963D38 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		3E4AB9392676D86100C79456 /* exploreData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exploreData.json; sourceTree = "<group>"; };
+		3555A830297B389300963D38 /* exploreData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exploreData.json; sourceTree = "<group>"; };
 		3E727ECF26727088006C11AC /* ANF Code Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANF Code Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E727ED226727088006C11AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E727ED426727088006C11AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,12 +91,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3555A800297B32B900963D38 /* Extensions */ = {
+		3555A82F297B389300963D38 /* SupprtingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				3555A805297B339900963D38 /* Extensions.swift */,
+				3555A830297B389300963D38 /* exploreData.json */,
 			);
-			path = Extensions;
+			name = SupprtingFiles;
+			path = "../../anf-challenge/ANF Code Test/SupprtingFiles";
 			sourceTree = "<group>";
 		};
 		3E727EC626727088006C11AC = {
@@ -124,7 +123,7 @@
 		3E727ED126727088006C11AC /* ANF Code Test */ = {
 			isa = PBXGroup;
 			children = (
-				3555A800297B32B900963D38 /* Extensions */,
+				3555A82F297B389300963D38 /* SupprtingFiles */,
 				3555A7FD297B326400963D38 /* Model */,
 				3E727F02267281F7006C11AC /* ANFExploreCardTableViewController.swift */,
 				3E727ED226727088006C11AC /* AppDelegate.swift */,
@@ -133,7 +132,6 @@
 				3E727EDB2672708B006C11AC /* Assets.xcassets */,
 				3E727EDD2672708B006C11AC /* LaunchScreen.storyboard */,
 				3E727EE02672708B006C11AC /* Info.plist */,
-				3E4AB9392676D86100C79456 /* exploreData.json */,
 			);
 			path = "ANF Code Test";
 			sourceTree = "<group>";
@@ -242,7 +240,7 @@
 				3E727EDF2672708B006C11AC /* LaunchScreen.storyboard in Resources */,
 				3E727EDC2672708B006C11AC /* Assets.xcassets in Resources */,
 				3E727EDA26727088006C11AC /* Main.storyboard in Resources */,
-				3E4AB93A2676D86100C79456 /* exploreData.json in Resources */,
+				3555A831297B389300963D38 /* exploreData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E727F03267281F7006C11AC /* ANFExploreCardTableViewController.swift in Sources */,
-				3555A806297B339900963D38 /* Extensions.swift in Sources */,
 				3E727ED326727088006C11AC /* AppDelegate.swift in Sources */,
 				3E727ED526727088006C11AC /* SceneDelegate.swift in Sources */,
 				3555A7FF297B326400963D38 /* ProductListModel.swift in Sources */,
