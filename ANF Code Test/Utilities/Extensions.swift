@@ -52,7 +52,7 @@ extension UIViewController {
     
     /// This will show an simple alert with a message
     /// - parameter Message : Message You want to show to the user
-    func showSimpleAlert(Message : String){
+    func showSimpleAlert(Message: String) {
         let alert = UIAlertController(title: Message, message: "", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
