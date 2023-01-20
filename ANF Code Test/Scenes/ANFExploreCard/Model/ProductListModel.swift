@@ -5,8 +5,8 @@
 //  Created by Elle Kadfur on 1/18/23.
 //
 
-import Foundation
 
+import Foundation
 // MARK: - ProductData
 struct ProductData: Codable {
     let title: String?

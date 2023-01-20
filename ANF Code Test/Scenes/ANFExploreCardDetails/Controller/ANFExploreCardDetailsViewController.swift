@@ -17,7 +17,7 @@ class ANFExploreCardDetailsViewController: UIViewController {
     @IBOutlet weak var btnShop2: UIButton!
     @IBOutlet weak var btnShop1: UIButton!
     
-    var productDetail : ProductData?
+    var productDetail: ProductData?
     var content = [ProductDetail]()
     var targetUrl = ""
     var targetUrl2 = ""
@@ -25,9 +25,7 @@ class ANFExploreCardDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         uiSetUp()
-        
         guard content.count != 0 else { return }
         
         if content.count == 1 {
@@ -35,6 +33,7 @@ class ANFExploreCardDetailsViewController: UIViewController {
             btnShop1.isHidden = false
             btnShop1.setTitle(content[0].title ?? "", for: .normal)
             targetUrl = content[0].target ?? ""
+            print(targetUrl)
         } else {
             btnShop2.isHidden = false
             btnShop1.isHidden = false
@@ -58,10 +57,9 @@ class ANFExploreCardDetailsViewController: UIViewController {
         lblTitle.text = productDetail?.title ?? ""
         lblPromoMessage.text = productDetail?.promoMessage ?? ""
         lblTopDescription.text = productDetail?.topDescription ?? ""
-        lblBottomDescription.attributedText = NSAttributedString(string: productDetail?.bottomDescription ?? "" )
+        lblBottomDescription.attributedText = NSAttributedString(html:  productDetail?.bottomDescription ?? "" )
         let types: NSTextCheckingResult.CheckingType = .link
         let detector = try? NSDataDetector(types: types.rawValue)
-        
         guard let detect = detector else { return }
         
         let matches = detect.matches(in: productDetail?.bottomDescription ?? "", options: .reportCompletion, range: NSMakeRange(0, (productDetail?.bottomDescription ?? "").count))
