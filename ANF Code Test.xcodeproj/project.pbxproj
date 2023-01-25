@@ -7,21 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3586667E297B45D400C674C9 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586667C297B45D400C674C9 /* Observable.swift */; };
-		3586667F297B45D400C674C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586667D297B45D400C674C9 /* Extensions.swift */; };
-		35866682297B45DD00C674C9 /* exploreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 35866681297B45DD00C674C9 /* exploreData.json */; };
-		35866695297B45E900C674C9 /* ANFExploreCardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35866686297B45E900C674C9 /* ANFExploreCardDetailsViewController.swift */; };
-		35866696297B45E900C674C9 /* ExploreCardDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35866688297B45E900C674C9 /* ExploreCardDetails.storyboard */; };
-		35866697297B45E900C674C9 /* ANFExploreCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586668B297B45E900C674C9 /* ANFExploreCardViewModel.swift */; };
-		35866698297B45E900C674C9 /* ANFExploreCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586668D297B45E900C674C9 /* ANFExploreCardTableViewController.swift */; };
-		35866699297B45E900C674C9 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586668F297B45E900C674C9 /* ProductListModel.swift */; };
-		3586669A297B45E900C674C9 /* ExploreCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35866691297B45E900C674C9 /* ExploreCard.storyboard */; };
-		3586669B297B45E900C674C9 /* ANFExploreCardRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35866694297B45E900C674C9 /* ANFExploreCardRepo.swift */; };
+		3555A7FF297B326400963D38 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3555A7FE297B326400963D38 /* ProductListModel.swift */; };
+		3586666F297B442700C674C9 /* ANFExploreCardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586666E297B442700C674C9 /* ANFExploreCardDetailsViewController.swift */; };
 		3E727ED326727088006C11AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727ED226727088006C11AC /* AppDelegate.swift */; };
 		3E727ED526727088006C11AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727ED426727088006C11AC /* SceneDelegate.swift */; };
+		3E727EDA26727088006C11AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E727ED826727088006C11AC /* Main.storyboard */; };
 		3E727EDC2672708B006C11AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E727EDB2672708B006C11AC /* Assets.xcassets */; };
 		3E727EDF2672708B006C11AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E727EDD2672708B006C11AC /* LaunchScreen.storyboard */; };
 		3E727EEA2672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727EE92672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift */; };
+		3E727F03267281F7006C11AC /* ANFExploreCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E727F02267281F7006C11AC /* ANFExploreCardTableViewController.swift */; };
 		49EC647D1671789848138244 /* Pods_ANF_Code_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C1891A08460758BDC21225 /* Pods_ANF_Code_TestTests.framework */; };
 		8E5B48F955545080E79A1896 /* Pods_ANF_Code_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0BF3751F05CCA94173F0E0 /* Pods_ANF_Code_Test.framework */; };
 /* End PBXBuildFile section */
@@ -40,25 +34,20 @@
 		06C1891A08460758BDC21225 /* Pods_ANF_Code_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANF_Code_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3E990CFD41D93B6B6CE6F7 /* Pods-ANF Code Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANF Code Test.release.xcconfig"; path = "Target Support Files/Pods-ANF Code Test/Pods-ANF Code Test.release.xcconfig"; sourceTree = "<group>"; };
 		1EFEC97B2783689663D95F06 /* Pods-ANF Code TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANF Code TestTests.debug.xcconfig"; path = "Target Support Files/Pods-ANF Code TestTests/Pods-ANF Code TestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3586667C297B45D400C674C9 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		3586667D297B45D400C674C9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		35866681297B45DD00C674C9 /* exploreData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exploreData.json; sourceTree = "<group>"; };
-		35866686297B45E900C674C9 /* ANFExploreCardDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANFExploreCardDetailsViewController.swift; sourceTree = "<group>"; };
-		35866688297B45E900C674C9 /* ExploreCardDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExploreCardDetails.storyboard; sourceTree = "<group>"; };
-		3586668B297B45E900C674C9 /* ANFExploreCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANFExploreCardViewModel.swift; sourceTree = "<group>"; };
-		3586668D297B45E900C674C9 /* ANFExploreCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANFExploreCardTableViewController.swift; sourceTree = "<group>"; };
-		3586668F297B45E900C674C9 /* ProductListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
-		35866692297B45E900C674C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ExploreCard.storyboard; sourceTree = "<group>"; };
-		35866694297B45E900C674C9 /* ANFExploreCardRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANFExploreCardRepo.swift; sourceTree = "<group>"; };
+		3555A7FE297B326400963D38 /* ProductListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
+		3586666C297B440D00C674C9 /* exploreData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exploreData.json; sourceTree = "<group>"; };
+		3586666E297B442700C674C9 /* ANFExploreCardDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANFExploreCardDetailsViewController.swift; sourceTree = "<group>"; };
 		3E727ECF26727088006C11AC /* ANF Code Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANF Code Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E727ED226727088006C11AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E727ED426727088006C11AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E727ED926727088006C11AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E727EDB2672708B006C11AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E727EDE2672708B006C11AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E727EE02672708B006C11AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E727EE52672708B006C11AC /* ANF Code TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ANF Code TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E727EE92672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFExploreCardTableViewControllerTests.swift; sourceTree = "<group>"; };
 		3E727EEB2672708B006C11AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E727F02267281F7006C11AC /* ANFExploreCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFExploreCardTableViewController.swift; sourceTree = "<group>"; };
 		9FAA3069D65FB9F1B3D82784 /* Pods-ANF Code TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANF Code TestTests.release.xcconfig"; path = "Target Support Files/Pods-ANF Code TestTests/Pods-ANF Code TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8F88C0F87FE84A33D037E9F /* Pods-ANF Code Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANF Code Test.debug.xcconfig"; path = "Target Support Files/Pods-ANF Code Test/Pods-ANF Code Test.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0BF3751F05CCA94173F0E0 /* Pods_ANF_Code_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANF_Code_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,108 +84,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		3586667B297B45D400C674C9 /* Utilities */ = {
+		3555A7FD297B326400963D38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3586667C297B45D400C674C9 /* Observable.swift */,
-				3586667D297B45D400C674C9 /* Extensions.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		35866680297B45DD00C674C9 /* SupprtingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				35866681297B45DD00C674C9 /* exploreData.json */,
-			);
-			name = SupprtingFiles;
-			path = "../../anf-challenge/ANF Code Test/SupprtingFiles";
-			sourceTree = "<group>";
-		};
-		35866683297B45E900C674C9 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				35866684297B45E900C674C9 /* ANFExploreCardDetails */,
-				35866689297B45E900C674C9 /* ANFExploreCard */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		35866684297B45E900C674C9 /* ANFExploreCardDetails */ = {
-			isa = PBXGroup;
-			children = (
-				35866685297B45E900C674C9 /* Controller */,
-				35866687297B45E900C674C9 /* View */,
-			);
-			path = ANFExploreCardDetails;
-			sourceTree = "<group>";
-		};
-		35866685297B45E900C674C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				35866686297B45E900C674C9 /* ANFExploreCardDetailsViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		35866687297B45E900C674C9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				35866688297B45E900C674C9 /* ExploreCardDetails.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		35866689297B45E900C674C9 /* ANFExploreCard */ = {
-			isa = PBXGroup;
-			children = (
-				3586668A297B45E900C674C9 /* ViewModel */,
-				3586668C297B45E900C674C9 /* Controller */,
-				3586668E297B45E900C674C9 /* Model */,
-				35866690297B45E900C674C9 /* View */,
-				35866693297B45E900C674C9 /* Repo */,
-			);
-			path = ANFExploreCard;
-			sourceTree = "<group>";
-		};
-		3586668A297B45E900C674C9 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				3586668B297B45E900C674C9 /* ANFExploreCardViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3586668C297B45E900C674C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3586668D297B45E900C674C9 /* ANFExploreCardTableViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3586668E297B45E900C674C9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3586668F297B45E900C674C9 /* ProductListModel.swift */,
+				3555A7FE297B326400963D38 /* ProductListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		35866690297B45E900C674C9 /* View */ = {
+		3586666D297B442700C674C9 /* ANFExploreCardDetails */ = {
 			isa = PBXGroup;
 			children = (
-				35866691297B45E900C674C9 /* ExploreCard.storyboard */,
+				3586666E297B442700C674C9 /* ANFExploreCardDetailsViewController.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		35866693297B45E900C674C9 /* Repo */ = {
-			isa = PBXGroup;
-			children = (
-				35866694297B45E900C674C9 /* ANFExploreCardRepo.swift */,
-			);
-			path = Repo;
+			path = ANFExploreCardDetails;
 			sourceTree = "<group>";
 		};
 		3E727EC626727088006C11AC = {
@@ -222,11 +123,13 @@
 		3E727ED126727088006C11AC /* ANF Code Test */ = {
 			isa = PBXGroup;
 			children = (
-				35866683297B45E900C674C9 /* Scenes */,
-				35866680297B45DD00C674C9 /* SupprtingFiles */,
-				3586667B297B45D400C674C9 /* Utilities */,
+				3586666D297B442700C674C9 /* ANFExploreCardDetails */,
+				3586666C297B440D00C674C9 /* exploreData.json */,
+				3555A7FD297B326400963D38 /* Model */,
+				3E727F02267281F7006C11AC /* ANFExploreCardTableViewController.swift */,
 				3E727ED226727088006C11AC /* AppDelegate.swift */,
 				3E727ED426727088006C11AC /* SceneDelegate.swift */,
+				3E727ED826727088006C11AC /* Main.storyboard */,
 				3E727EDB2672708B006C11AC /* Assets.xcassets */,
 				3E727EDD2672708B006C11AC /* LaunchScreen.storyboard */,
 				3E727EE02672708B006C11AC /* Info.plist */,
@@ -335,11 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3586669A297B45E900C674C9 /* ExploreCard.storyboard in Resources */,
 				3E727EDF2672708B006C11AC /* LaunchScreen.storyboard in Resources */,
-				35866696297B45E900C674C9 /* ExploreCardDetails.storyboard in Resources */,
-				35866682297B45DD00C674C9 /* exploreData.json in Resources */,
 				3E727EDC2672708B006C11AC /* Assets.xcassets in Resources */,
+				3E727EDA26727088006C11AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,15 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35866699297B45E900C674C9 /* ProductListModel.swift in Sources */,
+				3E727F03267281F7006C11AC /* ANFExploreCardTableViewController.swift in Sources */,
 				3E727ED326727088006C11AC /* AppDelegate.swift in Sources */,
-				3586669B297B45E900C674C9 /* ANFExploreCardRepo.swift in Sources */,
-				3586667F297B45D400C674C9 /* Extensions.swift in Sources */,
+				3586666F297B442700C674C9 /* ANFExploreCardDetailsViewController.swift in Sources */,
 				3E727ED526727088006C11AC /* SceneDelegate.swift in Sources */,
-				35866698297B45E900C674C9 /* ANFExploreCardTableViewController.swift in Sources */,
-				35866697297B45E900C674C9 /* ANFExploreCardViewModel.swift in Sources */,
-				3586667E297B45D400C674C9 /* Observable.swift in Sources */,
-				35866695297B45E900C674C9 /* ANFExploreCardDetailsViewController.swift in Sources */,
+				3555A7FF297B326400963D38 /* ProductListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,12 +349,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35866691297B45E900C674C9 /* ExploreCard.storyboard */ = {
+		3E727ED826727088006C11AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35866692297B45E900C674C9 /* Base */,
+				3E727ED926727088006C11AC /* Base */,
 			);
-			name = ExploreCard.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		3E727EDD2672708B006C11AC /* LaunchScreen.storyboard */ = {
