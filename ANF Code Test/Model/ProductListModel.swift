@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 // MARK: - ProductData
 struct ProductData: Codable {
     let title: String?
